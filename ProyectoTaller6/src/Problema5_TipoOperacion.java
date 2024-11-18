@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class Problema5_TipoOperacion {
+
     public static void main(String[] args) {
         int numOperacion;
         String tipoOperacion;
@@ -31,5 +32,5 @@ public class Problema5_TipoOperacion {
         }
         System.out.println("La operación seleccionada es: " + tipoOperacion);
     }
-    
+
 }
