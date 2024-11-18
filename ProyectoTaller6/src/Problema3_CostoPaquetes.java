@@ -18,8 +18,8 @@ public class Problema3_CostoPaquetes {
         } else {
             costoEnvio = 15;
         }
-        System.out.printf("El costo de envío es: " + costoEnvio +"$");
-        
+        System.out.printf("El costo de envío es: " + costoEnvio + "$");
+
     }
 
 }
