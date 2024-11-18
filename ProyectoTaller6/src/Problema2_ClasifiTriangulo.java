@@ -24,3 +24,4 @@ public class Problema2_ClasifiTriangulo {
         }
     }
 }
+
