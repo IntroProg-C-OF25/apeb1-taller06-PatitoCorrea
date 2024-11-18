@@ -2,13 +2,14 @@
 import java.util.Scanner;
 
 public class Problema4_MesANombre {
+
     public static void main(String[] args) {
         int numMes;
         Scanner tcl = new Scanner(System.in);
         System.out.println("ESCRIBA UN NUMERO DEL 1 AL 12 SEGUN EL MES: ");
         numMes = tcl.nextInt();
-            String NombreM;
-            switch (numMes) {
+        String NombreM;
+        switch (numMes) {
             case 1:
                 NombreM = "Enero";
                 break;
@@ -50,7 +51,7 @@ public class Problema4_MesANombre {
                 break;
         }
         System.out.println("El mes correspondiente es: " + NombreM);
-        
+
     }
-    
+
 }
